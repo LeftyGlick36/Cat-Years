@@ -9,14 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func findAge(sender: AnyObject)
+    
+    @IBAction func findAge(_ sender: AnyObject)
     {
         
-        var enteredAge = textViewAge.text.toInt()
+        let enteredAge = Int(textViewAge.text!)
         
         if enteredAge != nil
         {
-            var catYears = enteredAge! * 7
+            let catYears = enteredAge! * 7
         
             answer.text = "Your cat is \(catYears) in cat years"
         

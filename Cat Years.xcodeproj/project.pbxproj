@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED26B2B91DE5A18900FC66DC /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26B2B81DE5A18900FC66DC /* cat.png */; };
 		EDA9F5E81B1A8B18007DCA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9F5E71B1A8B18007DCA95 /* AppDelegate.swift */; };
 		EDA9F5EA1B1A8B18007DCA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9F5E91B1A8B18007DCA95 /* ViewController.swift */; };
 		EDA9F5ED1B1A8B18007DCA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA9F5EB1B1A8B18007DCA95 /* Main.storyboard */; };
 		EDA9F5EF1B1A8B18007DCA95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA9F5EE1B1A8B18007DCA95 /* Images.xcassets */; };
 		EDA9F5F21B1A8B18007DCA95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9F5F01B1A8B18007DCA95 /* LaunchScreen.xib */; };
 		EDA9F5FE1B1A8B18007DCA95 /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9F5FD1B1A8B18007DCA95 /* Cat_YearsTests.swift */; };
-		EDA9F6081B1A8D20007DCA95 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA9F6071B1A8D20007DCA95 /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED26B2B81DE5A18900FC66DC /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		EDA9F5E21B1A8B18007DCA95 /* Cat Years.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Years.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA9F5E61B1A8B18007DCA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA9F5E71B1A8B18007DCA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		EDA9F5F71B1A8B18007DCA95 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA9F5FC1B1A8B18007DCA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA9F5FD1B1A8B18007DCA95 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
-		EDA9F6071B1A8D20007DCA95 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 				EDA9F5E71B1A8B18007DCA95 /* AppDelegate.swift */,
 				EDA9F5E91B1A8B18007DCA95 /* ViewController.swift */,
 				EDA9F5EB1B1A8B18007DCA95 /* Main.storyboard */,
-				EDA9F6071B1A8D20007DCA95 /* cat.png */,
 				EDA9F5EE1B1A8B18007DCA95 /* Images.xcassets */,
 				EDA9F5F01B1A8B18007DCA95 /* LaunchScreen.xib */,
+				ED26B2B81DE5A18900FC66DC /* cat.png */,
 				EDA9F5E51B1A8B18007DCA95 /* Supporting Files */,
 			);
 			path = "Cat Years";
@@ -159,14 +159,17 @@
 		EDA9F5DA1B1A8B18007DCA95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = JustUsLeauge;
 				TargetAttributes = {
 					EDA9F5E11B1A8B18007DCA95 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9USFQB378X;
+						LastSwiftMigration = 0810;
 					};
 					EDA9F5F61B1A8B18007DCA95 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9USFQB378X;
 						TestTargetID = EDA9F5E11B1A8B18007DCA95;
 					};
 				};
@@ -197,7 +200,7 @@
 			files = (
 				EDA9F5ED1B1A8B18007DCA95 /* Main.storyboard in Resources */,
 				EDA9F5F21B1A8B18007DCA95 /* LaunchScreen.xib in Resources */,
-				EDA9F6081B1A8D20007DCA95 /* cat.png in Resources */,
+				ED26B2B91DE5A18900FC66DC /* cat.png in Resources */,
 				EDA9F5EF1B1A8B18007DCA95 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -272,14 +276,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -300,6 +309,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -307,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -316,13 +329,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -336,6 +353,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -344,9 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Uptown.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -354,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				INFOPLIST_FILE = "Cat Years/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Uptown.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -364,6 +391,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -374,7 +404,12 @@
 				);
 				INFOPLIST_FILE = "Cat YearsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Uptown.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 3.0.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Years.app/Cat Years";
 			};
 			name = Debug;
@@ -383,13 +418,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9USFQB378X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Cat YearsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Uptown.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 3.0.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Years.app/Cat Years";
 			};
 			name = Release;
@@ -413,6 +456,7 @@
 				EDA9F6031B1A8B18007DCA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDA9F6041B1A8B18007DCA95 /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +465,7 @@
 				EDA9F6061B1A8B18007DCA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
